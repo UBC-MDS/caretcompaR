@@ -195,7 +195,6 @@ caretcompaR::comparison_viz(results_df,'time')
 
 ### Credits
 
-* Function concepts inspired by [UBC MDS DSCI 573](https://ubc-mds.github.io/descriptions/) lab instructor [Varada Kolhatkar](https://kvarada.github.io/).
 * README formatting inspiration from  [ptoolkit](https://github.com/UBC-MDS/ptoolkit).
 * Badges by [Shields IO](https://shields.io/)
 * Logo designed at [Canva](https://www.canva.com/)
@@ -207,7 +206,7 @@ caretcompaR::comparison_viz(results_df,'time')
 
 This package provides functions to help make the early stages of model selection and exploration easier to cycle through and meaningfully compare.
 
-Our idea for this package was to facilitate the comparison of machine learning classifiers and models. Our inspiration came from <a href="https://ubc-mds.github.io/descriptions/">UBC MDS DSCI 573</a> lab assignments where we learned to combine python's `sci-kit learn` with `pandas` in order to produce interpretable comparisons of train and test accuracies and time efficiencies across models.
+Our idea for this package was to facilitate the comparison of machine learning classifiers and models. Our inspiration came from one of the lab assignments at UBC where we learned to combine python's `sci-kit learn` with `pandas` in order to produce interpretable comparisons of train and test accuracies and time efficiencies across models.
 
 We are not currently aware of any packages that combine `caret` and dataframes for efficient and interpretable model-to-model comparisons. We expect that this combination is used in practice and after having used it while learning machine learning techniques during our UBC MDS coursework, we thought it would be a good combination of tools to formally package together.
 
